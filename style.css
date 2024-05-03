@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(rgb(37, 37, 37) 75%, white 100%);
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+
+}
+
+.videoContainer video {
+    position: relative;
+    bottom: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 10px solid white;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.textContainer {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+    font-weight: bold;
+    font-size: 100px;
+    padding: 0;
+}
+
+#message {
+    text-shadow: 10px 10px black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: 0;
+}
